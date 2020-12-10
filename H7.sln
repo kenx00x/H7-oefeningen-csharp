@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic", "Basic\Basic.csproj", "{B4CAAE18-98C2-41AC-9BF5-2FE286904AEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic", "Basic\Basic.csproj", "{B4CAAE18-98C2-41AC-9BF5-2FE286904AEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic 2", "Basic 2\Basic 2.csproj", "{AD3285E9-5474-4EB2-BCA4-88F2E6B642B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic 2", "Basic 2\Basic 2.csproj", "{AD3285E9-5474-4EB2-BCA4-88F2E6B642B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grootste methode", "Grootste methode\Grootste methode.csproj", "{43EFDFC9-6F8E-40D1-AB1E-186E38B55170}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grootste methode", "Grootste methode\Grootste methode.csproj", "{43EFDFC9-6F8E-40D1-AB1E-186E38B55170}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rekenmachine", "Rekenmachine\Rekenmachine.csproj", "{53874632-0B26-42BD-B2A9-7800F1000A8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rekenmachine", "Rekenmachine\Rekenmachine.csproj", "{53874632-0B26-42BD-B2A9-7800F1000A8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Film Default", "Film Default\Film Default.csproj", "{4F76ACDC-BBE2-4663-BE27-9D0576383E7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oefeningen deel 2", "Oefeningen deel 2", "{4F400868-F909-4CBE-80C0-97627F435370}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oefeningen deel 1", "Oefeningen deel 1", "{C7EF58A0-5EB9-4EEB-843D-A02DA782D8D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +39,20 @@ Global
 		{53874632-0B26-42BD-B2A9-7800F1000A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53874632-0B26-42BD-B2A9-7800F1000A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53874632-0B26-42BD-B2A9-7800F1000A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F76ACDC-BBE2-4663-BE27-9D0576383E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F76ACDC-BBE2-4663-BE27-9D0576383E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F76ACDC-BBE2-4663-BE27-9D0576383E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F76ACDC-BBE2-4663-BE27-9D0576383E7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4CAAE18-98C2-41AC-9BF5-2FE286904AEC} = {C7EF58A0-5EB9-4EEB-843D-A02DA782D8D0}
+		{AD3285E9-5474-4EB2-BCA4-88F2E6B642B3} = {C7EF58A0-5EB9-4EEB-843D-A02DA782D8D0}
+		{43EFDFC9-6F8E-40D1-AB1E-186E38B55170} = {C7EF58A0-5EB9-4EEB-843D-A02DA782D8D0}
+		{53874632-0B26-42BD-B2A9-7800F1000A8E} = {C7EF58A0-5EB9-4EEB-843D-A02DA782D8D0}
+		{4F76ACDC-BBE2-4663-BE27-9D0576383E7C} = {4F400868-F909-4CBE-80C0-97627F435370}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C1B28C9-6150-489A-9F33-BAD35A16500A}
